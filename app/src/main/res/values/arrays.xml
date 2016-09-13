@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner1">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+    </string-array>
+
+    <string-array name="list1">
+        <item>list one</item>
+        <item>list two</item>
+        <item>list three</item>
+        <item>list four</item>
+    </string-array>
+</resources>
