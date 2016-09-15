@@ -51,4 +51,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, Example7.class));
     }
 
+    @OnClick(R.id.button8)
+    void onButton8Clicked() {
+        startActivity(new Intent(this, Example8.class));
+    }
+
 }
