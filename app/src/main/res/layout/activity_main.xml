@@ -42,4 +42,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/button5" />
 
+    <Button
+        android:text="Example 6 - test recorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+
+    <Button
+        android:text="Example 7 - Async"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7" />
+
 </LinearLayout>
