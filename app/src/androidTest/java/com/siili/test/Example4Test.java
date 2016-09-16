@@ -8,7 +8,6 @@ import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiObjectNotFoundException;
 import android.support.test.uiautomator.UiSelector;
-import android.util.Log;
 
 import org.junit.After;
 import org.junit.Before;
@@ -60,11 +59,9 @@ public class Example4Test {
 
     @After
     public void after() {
-        Log.d("BOCHEN", "after");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("pm reset-permissions");
         }
-
     }
 
 
