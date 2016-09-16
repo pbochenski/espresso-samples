@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.siili.test.Example9.Example9;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -54,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.button8)
     void onButton8Clicked() {
         startActivity(new Intent(this, Example8.class));
+    }
+
+    @OnClick(R.id.button9)
+    void onButton9Clicked() {
+        startActivity(new Intent(this, Example9.class));
     }
 
 }

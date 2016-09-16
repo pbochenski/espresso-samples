@@ -60,4 +60,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/button8" />
 
+    <Button
+        android:text="Example 9 Mocking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9" />
+
 </LinearLayout>

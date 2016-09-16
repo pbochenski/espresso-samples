@@ -3,6 +3,7 @@
     package="com.siili.test">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +25,8 @@
         <activity android:name=".Example5" />
         <activity android:name=".Example6" />
         <activity android:name=".Example7" />
-        <activity android:name=".Example8"></activity>
+        <activity android:name=".Example8" />
+        <activity android:name=".Example9.Example9"></activity>
     </application>
 
 </manifest>

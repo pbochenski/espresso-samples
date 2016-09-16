@@ -13,17 +13,17 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
  * Created by bochen on 15.09.2016.
  */
 
-class TestActions {
+public class TestActions {
 
-    static void click(@IdRes int button) {
+    public static void click(@IdRes int button) {
         onView(withId(button)).perform(ViewActions.click());
     }
 
-    static void input(@IdRes int view, String text) {
+    public static void input(@IdRes int view, String text) {
         onView(withId(view)).perform(typeText(text));
     }
 
-    static void checkIfVisible(@IdRes int view) {
+    public static void checkIfVisible(@IdRes int view) {
         onView(withId(view)).check(matches(isDisplayed()));
     }
 }
