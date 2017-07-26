@@ -1,4 +1,4 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.support.test.espresso.matcher.BoundedMatcher;
 import android.support.test.rule.ActivityTestRule;

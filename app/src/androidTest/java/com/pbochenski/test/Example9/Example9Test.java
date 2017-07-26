@@ -1,4 +1,4 @@
-package com.siili.test.Example9;
+package com.pbochenski.test.Example9;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,7 +7,7 @@ import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-import com.siili.test.R;
+import com.pbochenski.test.R;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
 import java.io.IOException;
 
-import static com.siili.test.TestActions.click;
+import static com.pbochenski.test.TestActions.click;
 
 /**
  * Created by bochen on 15.09.2016.

@@ -1,4 +1,4 @@
-package com.siili.test.Example9;
+package com.pbochenski.test.Example9;
 
 import android.content.Context;
 import android.graphics.Bitmap;

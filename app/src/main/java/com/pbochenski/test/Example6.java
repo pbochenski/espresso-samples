@@ -1,7 +1,7 @@
-package com.siili.test;
+package com.pbochenski.test;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class Example6 extends AppCompatActivity {
 

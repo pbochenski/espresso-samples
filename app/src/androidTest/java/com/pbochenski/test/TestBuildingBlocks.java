@@ -1,9 +1,9 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.support.test.espresso.Espresso;
 
-import static com.siili.test.TestActions.click;
-import static com.siili.test.TestActions.input;
+import static com.pbochenski.test.TestActions.click;
+import static com.pbochenski.test.TestActions.input;
 
 /**
  * Created by bochen on 15.09.2016.

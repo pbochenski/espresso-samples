@@ -1,4 +1,4 @@
-package com.siili.test.Example9;
+package com.pbochenski.test.Example9;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.siili.test.R;
+import com.pbochenski.test.R;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;

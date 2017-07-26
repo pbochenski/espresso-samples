@@ -1,4 +1,4 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
@@ -7,11 +7,11 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static com.siili.test.TestActions.checkIfVisible;
-import static com.siili.test.TestActions.click;
-import static com.siili.test.TestActions.input;
-import static com.siili.test.TestBuildingBlocks.login;
-import static com.siili.test.TestBuildingBlocks.writeComment;
+import static com.pbochenski.test.TestActions.checkIfVisible;
+import static com.pbochenski.test.TestActions.click;
+import static com.pbochenski.test.TestActions.input;
+import static com.pbochenski.test.TestBuildingBlocks.login;
+import static com.pbochenski.test.TestBuildingBlocks.writeComment;
 
 /**
  * Created by bochen on 15.09.2016.

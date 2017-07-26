@@ -1,4 +1,4 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.os.Build;
 import android.support.test.InstrumentationRegistry;

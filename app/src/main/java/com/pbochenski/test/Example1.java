@@ -1,4 +1,4 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -39,8 +39,8 @@ public class Example1 extends AppCompatActivity {
 
     @OnClick(R.id.submitbutton)
     void clickSubmitButton() {
-        if (editText.getText().toString().equals("Siili")
-                && editText2.getText().toString().equals("Siili")) {
+        if (editText.getText().toString().equals("test")
+                && editText2.getText().toString().equals("test")) {
             passwordMatchText.setText("OK");
         }
     }

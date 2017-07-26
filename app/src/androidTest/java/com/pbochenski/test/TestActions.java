@@ -1,4 +1,4 @@
-package com.siili.test;
+package com.pbochenski.test;
 
 import android.support.annotation.IdRes;
 import android.support.test.espresso.action.ViewActions;
