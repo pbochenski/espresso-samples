@@ -8,6 +8,7 @@ import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static android.support.test.espresso.matcher.ViewMatchers.withText;
 
 /**
  * Created by bochen on 15.09.2016.
@@ -25,5 +26,9 @@ public class TestActions {
 
     public static void checkIfVisible(@IdRes int view) {
         onView(withId(view)).check(matches(isDisplayed()));
+    }
+
+    public static void checkIfText(@IdRes int view, String text) {
+        onView(withId(view)).check(matches(withText(text)));
     }
 }

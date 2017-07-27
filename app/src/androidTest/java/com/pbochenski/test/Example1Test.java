@@ -34,9 +34,9 @@ public class Example1Test {
 
     @Test
     public void shouldCheckInputs() {
-        onView(withId(R.id.editText)).perform(typeText("Siili"));
+        onView(withId(R.id.editText)).perform(typeText("test"));
         closeSoftKeyboard();
-        onView(withId(R.id.editText2)).perform(typeText("Siili"));
+        onView(withId(R.id.editText2)).perform(typeText("test"));
         closeSoftKeyboard();
         onView(withId(R.id.submitbutton)).perform(click());
 
